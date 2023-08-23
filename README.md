@@ -1,7 +1,7 @@
 # LPU Colab CPP and DSA Solutions
 
 
-![LPU Colab Logo](logo.jpg)
+![Logo](logo.jpg)
 
 Welcome to the **LPU Colab CPP and DSA Solutions** repository! Here, you'll find comprehensive solutions to the coding problems from the CPP (CSE-202) and DSA (CSE-205) courses on the LPU Colab platform, alongside a handy auto-typing tool.
 
