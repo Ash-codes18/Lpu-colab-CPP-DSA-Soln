@@ -59,7 +59,7 @@ git clone https://github.com/Ash-codes18/Lpu-colab-CPP-DSA-Soln.git
 
 2. Copy the solution.
 
-3. Open the answers.txt file.
+3. Open the answer.txt file.
 
 4. Paste the solution and save the file (use Ctrl + S).
 
@@ -96,9 +96,9 @@ While these solutions are valuable learning aids, using them as it is for academ
 
 ## Courses Solutions
 
-- **CPP (CSE-202)**: Solutions for programming problems organized by units and lectures.
-- **DSA (CSE-205)**: Solutions for various data structures and algorithms problems, organized by units and lectures.
-- **Keyword-Based Answers**: Solutions for Both CPP and DSA problems named based on the keywords in the question.
+- [**CPP (CSE-202)**](https://github.com/Ash-codes18/Lpu-colab-CPP-DSA-Soln/tree/main/CSE-202%20C%2B%2B): Solutions for programming problems organized by units and lectures.
+- [**DSA (CSE-205)**](https://github.com/Ash-codes18/Lpu-colab-CPP-DSA-Soln/tree/main/CSE-205%20DSA): Solutions for various data structures and algorithms problems, organized by units and lectures.
+- [**Keyword-Based Answers**](https://github.com/Ash-codes18/Lpu-colab-CPP-DSA-Soln/tree/main/Keyword-Based%20Answers): Solutions for Both CPP and DSA problems named based on the keywords in the question.
 
 ## Repository Structure
 
