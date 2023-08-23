@@ -1,7 +1,7 @@
 # LPU Colab CPP and DSA Solutions
 
 
-![Logo](logo.jpg)
+![LPU Logo](logo.jpg)
 
 Welcome to the **LPU Colab CPP and DSA Solutions** repository! Here, you'll find comprehensive solutions to the coding problems from the CPP (CSE-202) and DSA (CSE-205) courses on the LPU Colab platform, alongside a handy auto-typing tool.
 
@@ -85,8 +85,14 @@ While these solutions are valuable learning aids, using them as it is for academ
 
 ## Credits
 
-- **Sushant**: Keyword-named answers contributor.
-- **Flightman69**: Provided `autotype.py` script and created the video tutorial.
+![Sushant](https://github.com/07Sushant.png?size=60)
+  
+[**Sushant**](https://github.com/07Sushant) : Keyword-named answers contributor.
+
+![flighthman69](https://github.com/flightman69.png?size=60)
+
+[**Flightman69**](https://github.com/flightman69) : Provided `autotype.py` script and created the video tutorial.
+
 
 ## Courses Solutions
 
