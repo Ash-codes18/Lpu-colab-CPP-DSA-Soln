@@ -1,96 +1,58 @@
-// You are using GCC
 #include <iostream>
-#include <algorithm>
+#include <iomanip> // Required for setprecision
 
-using namespace std;
-
-int main(){
-    
-    int n;
-    cin>>n;
-    int arr[n];
-    
-    for(int i=0;i<n;i++){
-        cin>>arr[i];
-    }
-    
-    int m;
-    cin>>m;
-    int arr2[m];
-    
-    for(int i=0;i<m;i++){
-        cin>>arr2[i];
-    }
-    
-    int arr3[n+m];
-    int count=0;
-    
-    for(int i=0;i<n;i++){
-        arr3[i]=arr[i];
-        count++;
-    }
-    
-    for(int i=0;i<m;i++){
-        arr3[count]=arr2[i];
-        count++;
-    }
-    
-    sort(arr3,arr3+m+n);
-    
-    for(int i=0;i<n+m;i++){
-        if(arr3[i]!=arr3[i+1]){
-        cout<<arr3[i]<<" ";
+// Function to merge and calculate average grades
+void mergeAndCalculateAverage(const double gradeArrays[][100], int numStudents, int numSubjects, double averageGrades[]) {
+    // Calculate the maximum number of subjects
+    int maxSubjects = 0;
+    for (int i = 0; i < numStudents; i++) {
+        if (numSubjects > maxSubjects) {
+            maxSubjects = numSubjects;
         }
     }
-    
-    return 0;
+
+    // Initialize the averageGrades array
+    for (int i = 0; i < numStudents; i++) {
+        averageGrades[i] = 0;
+    }
+
+    // Merge and calculate average grades
+    for (int i = 0; i < numStudents; i++) {
+        for (int j = 0; j < numSubjects; j++) {
+            averageGrades[i] += gradeArrays[i][j];
+        }
+        averageGrades[i] /= numSubjects;
+    }
 }
 
+// Main function
+int main() {
+    const int MAX_STUDENTS = 100;
+    const int MAX_SUBJECTS = 100;
 
-// You are using GCC
-#include <iostream>
-#include <algorithm>
+    double gradeArrays[MAX_STUDENTS][MAX_SUBJECTS];
+    double averageGrades[MAX_STUDENTS];
+    int numStudents, numSubjects;
 
-using namespace std;
+    // Read the number of students and subjects
+    std::cin >> numStudents;
+    std::cin >> numSubjects;
 
-int main(){
-    
-    int n;
-    cin>>n;
-    int arr[n];
-    
-    for(int i=0;i<n;i++){
-        cin>>arr[i];
-    }
-        
-    int m;
-    cin>>m;
-    int arr2[m];
-    
-    for(int i=0;i<m;i++){
-        cin>>arr2[i];
-    }
-    
-    int arr3[n+m];
-    int count=0;
-    
-    for(int i=0;i<n;i++){
-        arr3[i]=arr[i];
-        count++;
-    }
-    
-    for(int i=0;i<m;i++){
-        arr3[count]=arr2[i];
-        count++;
-    }
-    
-    sort(arr3,arr3+m+n);
-    
-    for(int i=0;i<n+m;i++){
-        if(arr3[i]!=arr3[i+1]){
-        cout<<arr3[i]<<" ";
+    // Read the grades for each student and subject
+    for (int i = 0; i < numStudents; i++) {
+        for (int j = 0; j < numSubjects; j++) {
+            std::cin >> gradeArrays[i][j];
         }
     }
-    
+
+    // Merge and calculate average grades
+    mergeAndCalculateAverage(gradeArrays, numStudents, numSubjects, averageGrades);
+
+    // Display the average grades
+    std::cout << "Average grades:\n";
+    for (int i = 0; i < numStudents; i++) {
+        std::cout << "Student " << i + 1 << ": " << std::fixed << std::setprecision(1) << averageGrades[i] << std::endl;
+    }
+
     return 0;
 }

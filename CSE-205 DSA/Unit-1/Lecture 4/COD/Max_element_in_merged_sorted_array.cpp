@@ -1,4 +1,5 @@
 // You are using GCC
+//partially correct
 #include <iostream>
 #include <algorithm>
 using namespace std;
@@ -34,9 +35,13 @@ int main(){
     
     sort(arr3,arr3+n+m);
     
+    int max=arr3[0];
     for(int i=0;i<n+m;i++){
-        cout<<arr3[i]<<" ";
+        if(arr3[i]>max){
+            max=arr3[i];
+        }
     }
+        cout<<max;
     
     return 0;
 }
