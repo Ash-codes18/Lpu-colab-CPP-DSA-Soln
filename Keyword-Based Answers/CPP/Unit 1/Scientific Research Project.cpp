@@ -29,7 +29,7 @@ float arr[n];
         cin >> arr[i];
 }
     bubbleSort(arr, n);
-    cout << "Sorted array: ";
+    cout << "y: ";
     for (int i = 0; i < n; i++) {
     cout << fixed << setprecision(2) << arr[i] << " ";
 }
