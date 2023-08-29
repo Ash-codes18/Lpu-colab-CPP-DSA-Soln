@@ -1,14 +1,3 @@
-// linked list insertion
-
-// input format
-// 5
-// 1 2 3 4 5
-// 3 -- pos to insert
-// 6 -- value to insert
-
-// output format
-// 1 2 6 3 4 5
-
 #include <iostream>
 using namespace std;
 
@@ -68,3 +57,5 @@ int main()
     print();
     return 0;
 }
+
+// Arin
