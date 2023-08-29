@@ -1,0 +1,25 @@
+#include <iostream>
+#include <iomanip>
+
+double calculateSpeed(double distance, double time) {
+    return distance / time;
+}
+
+double calculateSpeed(double distance, double time, double acceleration) {
+    return (distance / time) + (acceleration * time);
+}
+
+int main() {
+    double distance, time, trainAcceleration, planeAcceleration;
+    std::cin >> distance >> time >> trainAcceleration >> planeAcceleration;
+
+    double carSpeed = calculateSpeed(distance, time);
+    double trainSpeed = calculateSpeed(distance, time, trainAcceleration);
+    double planeSpeed = calculateSpeed(distance, time, planeAcceleration);
+
+    std::cout << std::fixed << std::setprecision(2) << carSpeed << std::endl;
+    std::cout << std::fixed << std::setprecision(2) << trainSpeed << std::endl;
+    std::cout << std::fixed << std::setprecision(2) << planeSpeed << std::endl;
+
+    return 0;
+}
