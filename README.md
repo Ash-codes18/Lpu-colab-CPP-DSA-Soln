@@ -1,38 +1,9 @@
 # LPU Colab CPP and DSA Solutions
 
 
-![LPU Logo](logo.jpg)
-
 Welcome to the **LPU Colab CPP and DSA Solutions** repository! Here, you'll find comprehensive solutions to the coding problems from the CPP (CSE-202) and DSA (CSE-205) courses on the LPU Colab platform, alongside a handy auto-typing tool.
 
 **Disclaimer: This repository is intended for educational purposes only.**
-
-
-## Table of Contents
-
-- [About](#about)
-- [Highlights](#highlights)
-- [Requirements](#requirements)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Video Tutorial](#video-tutorial)
-- [Academic Integrity](#academic-integrity)
-- [Credits](#credits)
-- [Courses Solutions](#courses-solutions)
-- [Repository Structure](#repository-structure)
-- [Contribution](#contribution)
-- [Contact](#contact)
-
-
-## About
-
-This repository is a compilation of solutions made by **Ashmit Mehta** (GitHub: [ash-codes18](https://github.com/ash-codes18)) and **Sushant** (GitHub: [07Sushant](https://github.com/07Sushant)). Our goal is to provide fellow students at Lovely Professional University (LPU) with a valuable resource for understanding and solving the coding challenges assigned in the CPP and DSA courses.
-
-## Highlights
-
-- Neatly organized solutions for CPP and DSA problems.
-- Time-saving auto-typing tool for efficient problem submission.
-- Video tutorial for a seamless experience.
 
 ## Requirements
 
@@ -79,6 +50,16 @@ Check out the detailed [Video Tutorial](https://github.com/flightman69/im-neo-lp
 
 Huge thanks to [flightman69](https://github.com/flightman69) for this insightful tutorial!
 
+## Caution!
+***autotype.py*** is running properly only on **Windows**
+In **Linux** and **Mac** It has few issues.
+It might type different characters for few characters.
+Example: 
+It may type `>>`  instead of `<<` in *linux*
+It may type `3` instead of `#` in *Mac*
+Just manually change these and you're good to go.
+
+
 ## Academic Integrity
 
 While these solutions are valuable learning aids, using them as it is for academic submissions could violate our institution's academic integrity policy. I encourage you to use these solutions to enhance your problem-solving skills and understanding of the concepts.
@@ -91,40 +72,8 @@ While these solutions are valuable learning aids, using them as it is for academ
 
 ![flighthman69](https://github.com/flightman69.png?size=60)
 
-[**Flightman69**](https://github.com/flightman69) : Provided `autotype.py` script and created the video tutorial.
+[**Flightman69**](https://github.com/flightman69) : Provided `autotype.py` script and created the video tutorial, and provided codes.
 
-
-## Courses Solutions
-
-- [**CPP (CSE-202)**](https://github.com/Ash-codes18/Lpu-colab-CPP-DSA-Soln/tree/main/CSE-202%20C%2B%2B): Solutions for programming problems organized by units and lectures.
-- [**DSA (CSE-205)**](https://github.com/Ash-codes18/Lpu-colab-CPP-DSA-Soln/tree/main/CSE-205%20DSA): Solutions for various data structures and algorithms problems, organized by units and lectures.
-- [**Keyword-Based Answers**](https://github.com/Ash-codes18/Lpu-colab-CPP-DSA-Soln/tree/main/Keyword-Based%20Answers): Solutions for Both CPP and DSA problems named based on the keywords in the question.
-
-## Repository Structure
-
-The repository is organized as follows:
-
-/<br>
-├── CPP/<br>
-│ ├── Unit-1/<br>
-│ │ ├── Lecture-1/<br>
-│ │ ├── Lecture-2/<br>
-│ │ └── ...<br>
-│ ├── Unit-2/<br>
-│ └── ...<br>
-├── DSA/<br>
-│ ├── Unit-1/<br>
-│ │ ├── Lecture-1/<br>
-│ │ ├── Lecture-2/<br>
-│ │ └── ...<br>
-│ ├── Unit-3<br>
-│ ├── Unit-2<br>
-│ └── ...<br>
-├── README.md<br>
-└── ...<br>
-
-
-Feel free to explore the folders and navigate to the respective problem solutions.
 
 
 ## Contribution
@@ -158,9 +107,21 @@ git push origin your_branch_name
 
 ## Contact
 
-If you have any questions, suggestions, or just want to connect, you can reach out to me:
+If you have any questions, suggestions, or just want to connect, you can reach out to us:
 
+**Ashmit:**
 - Gmail: [Ashmit Mehta](mailto:amehta.ashmit2@gmail.com)
 - LinkedIn: [Ashmit Mehta](https://www.linkedin.com/in/ashmit-mehta/)
 
+**Flightman69:**
+- Gmail: [flightman69](mailto:flightman69420@gmail.com)
+- twitter: [flightman69](https://twitter.com/flightman69)
+- instagram: [flightman69](https://instagram.com/flightman69)
+- telegram: [flightmanx69](https://t.me/flightman69)
+
 Don't forget to star ⭐ this repository if you find it helpful. Happy coding! 🚀
+
+## About
+
+This repository is a compilation of solutions made by **Ashmit Mehta** (GitHub: [ash-codes18](https://github.com/ash-codes18)) and **Sushant** (GitHub: [07Sushant](https://github.com/07Sushant)). Our goal is to provide fellow students at Lovely Professional University (LPU) with a valuable resource for understanding and solving the coding challenges assigned in the CPP and DSA courses.
+
