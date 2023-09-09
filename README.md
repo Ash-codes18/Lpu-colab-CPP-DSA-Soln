@@ -85,9 +85,9 @@ While these solutions are valuable learning aids, using them as it is for academ
 
 ## Credits
 
-![Sushant](https://github.com/07Sushant.png?size=60)
+![arin-prashar](https://github.com/arin-prashar.png?size=60)
   
-[**Sushant**](https://github.com/07Sushant) : Keyword-named answers contributor.
+[**Arin Prashar**](https://github.com/arin-prashar) : Contributed solutions to many problems.
 
 ![flighthman69](https://github.com/flightman69.png?size=60)
 
@@ -98,7 +98,7 @@ While these solutions are valuable learning aids, using them as it is for academ
 
 - [**CPP (CSE-202)**](https://github.com/Ash-codes18/Lpu-colab-CPP-DSA-Soln/tree/main/CSE-202%20C%2B%2B): Solutions for programming problems organized by units and lectures.
 - [**DSA (CSE-205)**](https://github.com/Ash-codes18/Lpu-colab-CPP-DSA-Soln/tree/main/CSE-205%20DSA): Solutions for various data structures and algorithms problems, organized by units and lectures.
-- [**Keyword-Based Answers**](https://github.com/Ash-codes18/Lpu-colab-CPP-DSA-Soln/tree/main/Keyword-Based%20Answers): Solutions for Both CPP and DSA problems named based on the keywords in the question.
+<!-- - [**Keyword-Based Answers**](https://github.com/Ash-codes18/Lpu-colab-CPP-DSA-Soln/tree/main/Keyword-Based%20Answers): Solutions for Both CPP and DSA problems named based on the keywords in the question. -->
 
 ## Repository Structure
 
@@ -162,5 +162,6 @@ If you have any questions, suggestions, or just want to connect, you can reach o
 
 - Gmail: [Ashmit Mehta](mailto:amehta.ashmit2@gmail.com)
 - LinkedIn: [Ashmit Mehta](https://www.linkedin.com/in/ashmit-mehta/)
+- Telegram: [Ash](https://t.me/lemonizing)
 
 Don't forget to star ⭐ this repository if you find it helpful. Happy coding! 🚀

@@ -2,6 +2,7 @@
     "files.associations": {
         "iostream": "cpp",
         "2d array  binary search": "cpp",
-        "ostream": "cpp"
+        "ostream": "cpp",
+        "vector": "cpp"
     }
 }
