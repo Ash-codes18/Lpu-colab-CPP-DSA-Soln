@@ -26,7 +26,7 @@ Welcome to the **LPU Colab CPP and DSA Solutions** repository! Here, you'll find
 
 ## About
 
-This repository is a compilation of solutions made by **Ashmit Mehta** (GitHub: [ash-codes18](https://github.com/ash-codes18)) and **Sushant** (GitHub: [07Sushant](https://github.com/07Sushant)). Our goal is to provide fellow students at Lovely Professional University (LPU) with a valuable resource for understanding and solving the coding challenges assigned in the CPP and DSA courses.
+This repository is a compilation of solutions made by **Ashmit Mehta** (GitHub: [ash-codes18](https://github.com/ash-codes18)) and several other [Contributions](https://github.com/Ash-codes18/Lpu-colab-CPP-DSA-Soln/graphs/contributors). Our goal being to provide fellow students at Lovely Professional University (LPU) with a valuable resource for understanding and solving the coding challenges assigned in the CPP and DSA courses.
 
 ## Highlights
 
