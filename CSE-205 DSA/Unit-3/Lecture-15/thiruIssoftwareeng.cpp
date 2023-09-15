@@ -1,4 +1,5 @@
 #include <iostream>
+using namespace std;
 
 const int max_n = 10;
 
@@ -22,7 +23,7 @@ public:
         if (top >= 0) {
             top--;
         } else {
-            std::cout << "Stack is empty" << std::endl;
+            cout << "Stack is empty" << endl;
         }
     }
 
@@ -30,7 +31,7 @@ public:
         if (top >= 0) {
             int max_element = arr[0];
             for (int i = 1; i <= top; i++) {
-                max_element = std::max(max_element, arr[i]);
+                max_element = max(max_element, arr[i]);
             }
             return max_element;
         } else {
@@ -41,11 +42,11 @@ public:
     void printStack() {
         if (top >= 0) {
             for (int i = 0; i <= top; i++) {
-                std::cout << arr[i] << " ";
+                cout << arr[i] << " ";
             }
-            std::cout << std::endl;
+            cout << endl;
         } else {
-            std::cout << "Stack is empty" << std::endl;
+            cout << "Stack is empty" << endl;
         }
     }
 };
@@ -55,18 +56,18 @@ int main() {
     int choice, element;
 
     while (true) {
-        std::cin >> choice;
+        cin >> choice;
 
         switch (choice) {
             case 1:
-                std::cin >> element;
+                cin >> element;
                 st.push(element);
                 break;
             case 2:
                 st.pop();
                 break;
             case 3:
-                std::cout << "Maximum element: " << st.getMax() << std::endl;
+                cout << "Maximum element: " << st.getMax() << endl;
                 break;
             case 4:
                 st.printStack();
@@ -74,7 +75,7 @@ int main() {
             case 5:
                 return 0;
             default:
-                std::cout << "Invalid choice" << std::endl;
+                cout << "Invalid choice" << endl;
                 break;
         }
     }

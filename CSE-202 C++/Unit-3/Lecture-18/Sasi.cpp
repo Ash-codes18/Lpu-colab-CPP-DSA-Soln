@@ -1,57 +1,82 @@
 #include <iostream>
 #include <fstream>
-#include <cstring>
-
+#include <string>
 using namespace std;
 
+int setup() {
+  string inputText;
+  ofstream myfile("sample.txt");
+  if (myfile.is_open()) {
+    cin >> inputText;
+    myfile << inputText << endl;
+    myfile.close();
+  } else {
+    cout << "Unable to open file";
+    return 1;
+  }
+  return 0;
+}
+
+void printFileData() {
+  ifstream fin("sample.txt");
+  char str[256];
+  if (!fin) {
+    cout << "Cannot open file for output." << endl;
+  } else {
+    fin.getline(str, 255);
+    cout << str << endl;
+    if (!fin.good()) {
+      cout << "Error occurred while reading from the file." << endl;
+    }
+    fin.close();
+    if (!fin.good()) {
+      cout << "Error occurred while closing the file." << endl;
+    }
+  }
+}
+
 int main() {
-    // Setup
-    string inputText;
-    getline(cin, inputText);
-    ofstream outFile("sample.txt");
-    if (!outFile.is_open()) {
-        cout << "Error while setting up data" << endl;
-        return 0;
-    }
-    outFile << inputText;
-    outFile.close();
-
-    // Print File Data
-    ifstream inFile("sample.txt");
-    if (!inFile.is_open()) {
-        cout << "Cannot open file for output." << endl;
-        return 0;
-    }
-    string fileData;
-    getline(inFile, fileData);
-    inFile.close();
-    cout << fileData << endl;
-
-    // File Output
-    ofstream outFile2("sample.txt", ios::app);
-    if (!outFile2.is_open()) {
-        cout << "Cannot open file for output." << endl;
-        return 0;
-    }
-    outFile2 << "XXX";
-    outFile2.flush();
-    outFile2.close();
-
-    ifstream inFile2("sample.txt");
-    if (!inFile2.is_open()) {
-        cout << "Cannot open file for output." << endl;
-        return 0;
-    }
-    inFile2.seekg(fileData.length());
-    char buffer[11];
-    memset(buffer, 0, sizeof(buffer));
-    inFile2.read(buffer, 10);
-    if (inFile2.fail() && !inFile2.eof()) {
-        cout << "Error occurred while reading from the file." << endl;
-        return 0;
-    }
-    inFile2.close();
-    cout << "XXX" << buffer << endl;
-
+  if (setup() != 0) {
+    cout << "Error while setting up data" << endl;
     return 0;
+  }
+
+  char ch;
+  fstream finout("sample.txt");
+  if (!finout) {
+    cout << "Cannot open file for output." << endl;
+    return 0;
+  }
+
+  // Write three X's.
+  for (int i = 0; i < 3; ++i)
+    finout.put('X');
+  if (!finout.good()) {
+    cout << "Error occurred while writing to the file." << endl;
+    return 0;
+  }
+
+  // Flush the output buffer.
+  finout.flush();
+
+  // Get the next ten characters from the file.
+  for (int i = 0; i < 10; ++i) {
+    finout.get(ch);
+    if (!finout.good()) {
+      cout << "Error occurred while reading from the file." << endl;
+      return 0;
+    }
+    cout << ch;
+  }
+  cout << endl;
+
+  finout.close();
+  if (!finout.good()) {
+    cout << "Error occurred while closing the file." << endl;
+    return 0;
+  }
+
+  printFileData();
+
+  return 0;
 }
