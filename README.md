@@ -10,12 +10,12 @@ Welcome to the **LPU Colab CPP and DSA Solutions** repository! Here, you'll find
 
 ## Table of Contents
 
-- [About](#about)
-- [Highlights](#highlights)
+<!-- - [Highlights](#highlights)
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Video Tutorial](#video-tutorial)
+- [Video Tutorial](#video-tutorial) -->
+- [About](#about)
 - [Academic Integrity](#academic-integrity)
 - [Credits](#credits)
 - [Courses Solutions](#courses-solutions)
@@ -28,17 +28,17 @@ Welcome to the **LPU Colab CPP and DSA Solutions** repository! Here, you'll find
 
 This repository is a compilation of solutions made by **Ashmit Mehta** (GitHub: [ash-codes18](https://github.com/ash-codes18)) and several other [Contributors](https://github.com/Ash-codes18/Lpu-colab-CPP-DSA-Soln/graphs/contributors). Our goal being to provide fellow students at Lovely Professional University (LPU) with a valuable resource for understanding and solving the coding challenges assigned in the CPP and DSA courses.
 
-## Highlights
+<!-- ## Highlights
 
 - Neatly organized solutions for CPP and DSA problems.
 - Time-saving auto-typing tool for efficient problem submission.
-- Video tutorial for a seamless experience.
+- Video tutorial for a seamless experience. -->
 
-## Requirements
+<!-- ## Requirements
 
-- Python
-- Pip (Learn how to install pip on [Windows](https://www.geeksforgeeks.org/how-to-install-pip-on-windows/))
-
+- Python -->
+<!-- - Pip (Learn how to install pip on [Windows](https://www.geeksforgeeks.org/how-to-install-pip-on-windows/)) -->
+<!-- 
 ## Installation
 
 Install the necessary package using pip:
@@ -77,7 +77,7 @@ python autotype.py
 
 Check out the detailed [Video Tutorial](https://github.com/flightman69/im-neo-lpu/assets/89738046/7b746212-0b1b-4676-8163-7e42fede2eff) for a visual walkthrough. 
 
-Huge thanks to [flightman69](https://github.com/flightman69) for this insightful tutorial!
+Huge thanks to [flightman69](https://github.com/flightman69) for this insightful tutorial! -->
 
 ## Academic Integrity
 
@@ -89,16 +89,16 @@ While these solutions are valuable learning aids, using them as it is for academ
   
 [**Arin Prashar**](https://github.com/arin-prashar) : Contributed solutions to many problems.
 
-![flighthman69](https://github.com/flightman69.png?size=60)
+![yashasweeK9](https://github.com/yashasweeK9.png?size=60)
 
-[**Flightman69**](https://github.com/flightman69) : Provided `autotype.py` script and created the video tutorial.
+[**Yashaswee Kesharwani**](https://github.com/yashasweeK9) : Contributed Solutions with 100% accuracy to several problems.
 
 
 ## Courses Solutions
 
 - [**CPP (CSE-202)**](https://github.com/Ash-codes18/Lpu-colab-CPP-DSA-Soln/tree/main/CSE-202%20C%2B%2B): Solutions for programming problems organized by units and lectures.
 - [**DSA (CSE-205)**](https://github.com/Ash-codes18/Lpu-colab-CPP-DSA-Soln/tree/main/CSE-205%20DSA): Solutions for various data structures and algorithms problems, organized by units and lectures.
-<!-- - [**Keyword-Based Answers**](https://github.com/Ash-codes18/Lpu-colab-CPP-DSA-Soln/tree/main/Keyword-Based%20Answers): Solutions for Both CPP and DSA problems named based on the keywords in the question. -->
+
 
 ## Repository Structure
 
