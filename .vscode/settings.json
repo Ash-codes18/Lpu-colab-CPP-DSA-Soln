@@ -89,6 +89,7 @@
         "typeindex": "cpp",
         "typeinfo": "cpp",
         "valarray": "cpp",
-        "variant": "cpp"
+        "variant": "cpp",
+        "frequency of characters in a given string": "cpp"
     }
 }
