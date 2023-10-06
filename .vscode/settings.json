@@ -91,6 +91,7 @@
         "valarray": "cpp",
         "variant": "cpp",
         "frequency of characters in a given string": "cpp",
-        "queue": "cpp"
+        "queue": "cpp",
+        "xutility": "cpp"
     }
 }
