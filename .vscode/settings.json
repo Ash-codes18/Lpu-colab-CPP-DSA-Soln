@@ -92,6 +92,7 @@
         "variant": "cpp",
         "frequency of characters in a given string": "cpp",
         "queue": "cpp",
-        "xutility": "cpp"
+        "xutility": "cpp",
+        "locale": "cpp"
     }
 }
