@@ -1,0 +1,54 @@
+// You are using GCC
+#include <iostream>
+#define MAXN 100
+using namespace std;
+
+int dfs(int node, int adj[][MAXN], int dp[], bool vis[], int n) {
+    if (vis[node]) {
+        return dp[node];
+    }
+    vis[node] = true;
+    int maxPath = 0;
+    for (int i = 0; i < n; i++) {
+        if (adj[node][i]) {
+            maxPath = max(maxPath, 1 + dfs(i, adj, dp, vis, n));
+        }
+    }
+    dp[node] = maxPath;
+    return maxPath;
+}
+
+void addEdge(int adj[][MAXN], int u, int v) {
+    adj[u][v] = 1;
+}
+
+int findLongestPath(int adj[][MAXN], int n) {
+    int dp[MAXN] = {0};
+    bool vis[MAXN] = {false};
+    int longestPath = 0;
+
+    for (int i = 0; i < n; i++) {
+        if (!vis[i]) {
+            longestPath = max(longestPath, dfs(i, adj, dp, vis, n));
+        }
+    }
+
+    return longestPath;
+}
+
+int main() {
+    int n, m;
+    cin >> n >> m;
+    int adj[MAXN][MAXN] = {0};
+
+    for (int i = 0; i < m; ++i) {
+        int u, v;
+        cin >> u >> v;
+        addEdge(adj, u - 1, v - 1);
+    }
+
+    int result = findLongestPath(adj, n);
+    cout << result << endl;
+
+    return 0;
+}
